@@ -4,12 +4,6 @@ body{
 	color: #fff;
 
 }
-.box  {
-    border: 1px solid red;
-    width: 100px;
-    height: 100 px;
-    
-}
 h1 {
     color: rgb(255, 255, 255);
     direction: rtl;
@@ -29,4 +23,20 @@ textarea {border:2px solid rgb(0, 0, 0); border-radius: 5px 0 5px 5px; padding: 
         font-weight: bold;}
 div {
     direction: rtl;
+}
+
+/* default untuk smartphone */
+.img {
+
+
+}
+
+/* tablet */
+@media (min-width: 576px ){
+  .img
+}
+
+/* dekstop */
+@media (min-width: 992px ){
+  .img
 }
