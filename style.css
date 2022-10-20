@@ -25,18 +25,4 @@ div {
     direction: rtl;
 }
 
-/* default untuk smartphone */
-.img {
 
-
-}
-
-/* tablet */
-@media (min-width: 576px ){
-  .img
-}
-
-/* dekstop */
-@media (min-width: 992px ){
-  .img
-}
